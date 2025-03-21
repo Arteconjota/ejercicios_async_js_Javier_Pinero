@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    min-height: fit-content;
+    background: linear-gradient(black, brown);
+}
+
+main {
+    margin-top: 30px;
+}
+
+main > img {
+    width: 20rem;
+    height: auto;
+    filter: drop-shadow(0 0 10px black);
+}
+
+#character-list {
+    width: 15rem;
+    min-width: fit-content;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: #fff09c;
+    border: #fff09c 2px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'cinzel';
+}
+
+select:focus {
+    color: black;
+    background-color: #fff09c;
+}
+
+#imgDiv {
+    display: flex;
+    padding: 10px;
+    background:radial-gradient(#fff09c 50%, #817116);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+}
+
+.character-image {
+    min-width: 200px;
+    width: 350px;
+    border: #fff09c solid 2px;
+    border-radius: 10px;
+}
